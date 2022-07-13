@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DivisionExplicacion">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sonido4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/sonido"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/aprendedividir"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/aprendedividir2"
+            app:layout_constraintStart_toEndOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="587dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="57dp"
+            android:text="Dividir es una distribución equitativa, es decir, repartir entre partes o grupos iguales.  Por ejemplo: Queremos repartir estas 12 bolas entre 3 cajitas a partes iguales, por lo que tiene que haber el mismo número de bolas en cada una de las cajas.  Vamos repartiendo las bolas en cada caja, hasta que finalmente en cada caja hay 4 bolas.  Por lo que la división que hemos hecho es: 12 bolas entre 3 cajas = 4 bolas en cada caja"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/casa"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/casa" />
+
+            <ImageView
+                android:id="@+id/minidivi"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/div" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/exp" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

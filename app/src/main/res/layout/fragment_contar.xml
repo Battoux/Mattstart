@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/casac"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/casa" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/contar" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="480dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="154dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TableRow
+                android:id="@+id/fila1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/car1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/car11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/car20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carro"
+                    android:visibility="invisible" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/Numtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="323dp"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout3" />
+
+        <Button
+            android:id="@+id/btnComenzar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="333dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="333dp"
+            android:text="Comenzar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Numtxt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

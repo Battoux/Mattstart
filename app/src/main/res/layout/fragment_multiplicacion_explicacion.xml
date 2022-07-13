@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiplicacionExplicacion">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sonido3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/sonido"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="579dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="193dp"
+            android:src="@drawable/aprendemultiplicar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="587dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="57dp"
+            android:text="La multiplicación es una forma rápida de realizar una suma cuando se repite el mismo número.  Por ejemplo si tenemos 3 cajitas con 2 bolas en cada una, ¿cuántas bolas tenemos en total?  Podemos sumar 2 bolas + 2 bolas + 2 bolas = 6 bolas, o podemos multiplicar 3 grupos iguales de 2 bolas cada uno 3 x 2 = 6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/casa"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/casa" />
+
+            <ImageView
+                android:id="@+id/minimulti"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/mult" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/exp" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
